@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik Tak Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome link cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="title" class="title"> "X - O" GAME</h1>
+            <i class="fa-regular fa-moon" id="iconDark"></i>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="line">
+                <div class="care" id="1" onclick="game(this.id)"></div>
+                <div class="care" id="2" onclick="game(this.id)"></div>
+                <div class="care" id="3" onclick="game(this.id)"></div>
+            </div>
+            <div class="line">
+                <div class="care" id="4" onclick="game(this.id)"></div>
+                <div class="care" id="5" onclick="game(this.id)"></div>
+                <div class="care" id="6" onclick="game(this.id)"></div>
+            </div>
+            <div class="line">
+                <div class="care" id="7" onclick="game(this.id)"></div>
+                <div class="care" id="8" onclick="game(this.id)"></div>
+                <div class="care" id="9" onclick="game(this.id)"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
